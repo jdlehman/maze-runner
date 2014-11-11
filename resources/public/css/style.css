@@ -1,0 +1,32 @@
+.maze {
+  /* border: 1px solid #000; */
+}
+
+.cell {
+  float: left;
+  height: 2rem;
+  width: 2rem;
+  padding: 0.5rem;
+  border: 1px solid #fff;
+}
+
+.row {
+  content: '';
+  clear: both;
+}
+
+.north {
+  border-top: 1px solid #000;
+}
+
+.east {
+  border-right: 1px solid #000;
+}
+
+.south {
+  border-bottom: 1px solid #000;
+}
+
+.west {
+  border-left: 1px solid #000;
+}
